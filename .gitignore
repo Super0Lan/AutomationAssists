@@ -1,0 +1,6 @@
+/.vs
+/bin
+/obj
+/AutomationAssists/bin
+/AutomationAssists/obj
+/AutomationAssists/*.user

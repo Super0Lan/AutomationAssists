@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net461;net5.0-windows</TargetFrameworks>
+    <UseWPF>true</UseWPF>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>控制WPF应用程序是否可以被自动化检测</Description>
+    <NeutralLanguage>zh</NeutralLanguage>
+  </PropertyGroup>
+
+</Project>
