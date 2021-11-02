@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfAppDemo"
         xmlns:lan="https://schemas.lan.com/assists/automation"
-        mc:Ignorable="d" lan:Assists.CanAutomationed="{Binding ElementName=checkBox,Path=IsChecked}"
+        mc:Ignorable="d" 
         Title="MainWindow" Height="450" Width="800">
-    <StackPanel >
+    <StackPanel lan:Assists.CanAutomationed="{Binding ElementName=checkBox,Path=IsChecked}" >
         <CheckBox Width="150" Height="30" Content="是否打开自动化" x:Name="checkBox"></CheckBox>
         <Button Content="这是一个按钮"></Button>
         <CheckBox Content="这是一个单选框"></CheckBox>
