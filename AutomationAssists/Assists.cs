@@ -16,7 +16,7 @@ namespace AutomationAssists
 
         // Using a DependencyProperty as the backing store for CanAutomationed.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty CanAutomationedProperty =
-            DependencyProperty.RegisterAttached("CanAutomationed", typeof(bool), typeof(Assists), new FrameworkPropertyMetadata(true, FrameworkPropertyMetadataOptions.Inherits, OnCanAutomationedChanged));
+            DependencyProperty.RegisterAttached("CanAutomationed", typeof(bool), typeof(Assists), new PropertyMetadata(true, OnCanAutomationedChanged));
 
         public static void OnCanAutomationedChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {

@@ -6,6 +6,13 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>控制WPF应用程序是否可以被自动化检测</Description>
     <NeutralLanguage>zh</NeutralLanguage>
+    <PackageProjectUrl>https://github.com/Super0Lan/AutomationAssists</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>wanglan</Authors>
+    <Company></Company>
+    <Product />
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
 </Project>
